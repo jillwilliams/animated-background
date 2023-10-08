@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Animated Background</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Creepster&family=Dancing+Script&family=Fuggles&family=Indie+Flower&family=Kalam&family=Montserrat:wght@100&family=Permanent+Marker&family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" HREF="./contact.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <audio id="song">
+            <source src="images/wolveshowling2.mp3">
+        </audio>
+        <script>
+            window.addEventListener('click',()=>{
+                document.getElementById("song").play();
+            });
+        </script>
+        <img src="images/clickMe.jpg" id="clickMe">
+    </div>
+    <div class="header">
+        <p>Contact Us</p>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/marina.jpg">
+            <img src="images/marina.jpg" alt="marina" width="300" height="200">
+        </a> 
+        <div class="description">
+            Wallowa Lake Marina
+        </div>
+        <div class="description">
+            <a href="http://wallowalakemarina.com/">
+                wallowalakemarina.com
+            </a>
+        </div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/matterhorn.jpg">
+            <img src="images/matterhorn.jpg" alt="matterhorn" width="300" height="200">
+        </a> 
+        <div class="description">
+            Matterhorn Gift Shop and Mini-Golf
+        </div>
+        <div class="description">
+            <a href="https://www.thematterhornvillage.com/">
+                thematterhornvillage.com
+            </a>
+        </div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/wallowastatepark.jpg">
+            <img src="images/wallowastatepark.jpg" alt="statepark" width="300" height="200">
+        </a> 
+        <div class="description">
+            Camping at Wallowa Lake
+        </div>
+        <div class="description">
+            <a href="https://stateparks.oregon.gov/">
+                stateparks.oregon.gov
+            </a>
+        </div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/tramway1.jpg">
+            <img src="images/tramway1.jpg" alt="tram" width="300" height="200">
+        </a> 
+        <div class="description">
+            Wallowa Lake Tramway
+        </div>
+        <div class="description">
+            <a href="https://wallowalaketramway.com/">
+                wallowalaketramway.com
+            </a>
+        </div>
+    </div>
+</body>
+</html>
