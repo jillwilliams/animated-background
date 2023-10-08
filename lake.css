@@ -1,5 +1,6 @@
 body {
     font-family: 'Indie Flower';
+    background-color:bisque;
 }
 #clickMe {
     width: 60px;
@@ -29,5 +30,6 @@ div.description {
     padding: 15px;
     text-align: center;
     font-size: 1.5rem;
+    background-color: white;
 }
 
